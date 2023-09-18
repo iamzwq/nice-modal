@@ -2,12 +2,11 @@ import Button from "@mui/material/Button";
 import MyDialog from "./MyDialog2";
 
 const App = () => {
-
   const handleOpenDialog = () => {
     MyDialog({
-      title: "我是一个标题",
+      title: "标题111111",
       onOk: (data) => {
-        console.log("10->", data)
+        console.log("onOk callback", data)
       }
     })
   };
